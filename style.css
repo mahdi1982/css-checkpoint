@@ -1,0 +1,62 @@
+body{
+    background-image:fond page;
+    background-repeat:no-repeat
+}
+
+
+h1{
+    font-family:"trebuchet ms"; /* famille de police "trebuchet ms" */
+    font-size:22px;/* taille de police de 22 pixels */
+    color:#252525;/* couleur de police noir (#252525=noir) */
+    text-align:center; /* aligner le texte à gauche */
+    margin-bottom:20px; /* ajouter une marge sous le texte de 20 pixels */
+    }
+p{color:blue;}
+.class{
+    border: 3px blue dashed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+*/
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+ul {
+    border: 1px solid #555;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+/* On travaille sur la balise body, donc sur TOUTE la page */
+h1 {text-align: center; }
+h2{ 
+    font-family:"trebuchet ms"; /* famille de police "trebuchet ms" */
+    font-size:22px;/* taille de police de 22 pixels */
+    color:#252525;/* couleur de police noir (#252525=noir) */
+    text-align:center; /* aligner le texte à gauche */
+    margin-bottom:20px; /* ajouter une marge sous le texte de 20 pixels */
+    }
+}
+body {
+    background-color: #232b35;
+}
